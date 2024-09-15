@@ -4,4 +4,6 @@
 *.pyc
 __pycache__/
 env
+migrations
 cred.txt
+media

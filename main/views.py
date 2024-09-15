@@ -8,6 +8,7 @@ def index(request):
     context = {
         "posts": Blogs.objects.filter(status=Blogs.ACTIVE)
     }
+    print(context['posts'])
     return render(request, 'index.html', context)
 
 # About us page view
